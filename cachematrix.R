@@ -12,17 +12,6 @@
 
 # > cacheSolve(cx)                            // Call the 2nd time, so return
 #                                             // the cached inverse
-# Example usage:
-
-# > x <- matrix(rnorm(16), nrow = 4)          // Create a matrix x
-
-# > cx <- makeCacheMatrix(x)                  // Create our special matrix
-# > cx$get()                                  // Return the matrix
-
-# > cacheSolve(cx)                            // Return the inverse
-
-# > cacheSolve(cx)                            // Call the 2nd time, so return
-#                                             // the cached inverse
 
 ## Write a short comment describing this function
 
